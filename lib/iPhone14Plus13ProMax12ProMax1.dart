@@ -1,12 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:adobe_xd/pinned.dart';
-import './iPhone14Plus13ProMax12ProMax2.dart';
-import 'package:adobe_xd/page_link.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 class iPhone14Plus13ProMax12ProMax1 extends StatelessWidget {
   iPhone14Plus13ProMax12ProMax1({
-    Key key,
+    Key? key,
   }) : super(key: key);
   @override
   Widget build(BuildContext context) {
@@ -29,27 +27,6 @@ class iPhone14Plus13ProMax12ProMax1 extends StatelessWidget {
                 letterSpacing: -0.4,
                 fontWeight: FontWeight.w600,
               ),
-            ),
-          ),
-          Pinned.fromPins(
-            Pin(start: 35.0, end: 47.0),
-            Pin(size: 214.0, start: 129.0),
-            child: Container(
-              color: const Color(0xffffffff),
-            ),
-          ),
-          Pinned.fromPins(
-            Pin(start: 87.0, end: 86.0),
-            Pin(size: 53.0, middle: 0.2417),
-            child: Text(
-              'MALAC',
-              style: TextStyle(
-                fontFamily: 'Averta ☞',
-                fontSize: 40,
-                color: const Color(0xff37517e),
-                fontWeight: FontWeight.w600,
-              ),
-              textAlign: TextAlign.center,
             ),
           ),
           Pinned.fromPins(
@@ -88,21 +65,11 @@ class iPhone14Plus13ProMax12ProMax1 extends StatelessWidget {
           Pinned.fromPins(
             Pin(size: 22.0, end: 52.0),
             Pin(size: 22.0, middle: 0.4856),
-            child: PageLink(
-              links: [
-                PageLinkInfo(
-                  transition: LinkTransition.Fade,
-                  ease: Curves.easeOut,
-                  duration: 0.2,
-                  pageBuilder: () => iPhone14Plus13ProMax12ProMax2(),
-                ),
-              ],
-              child: Container(
-                decoration: BoxDecoration(
-                  color: const Color(0xff30e036),
-                  borderRadius:
-                      BorderRadius.all(Radius.elliptical(9999.0, 9999.0)),
-                ),
+            child: Container(
+              decoration: BoxDecoration(
+                color: const Color(0xff30e036),
+                borderRadius:
+                    BorderRadius.all(Radius.elliptical(9999.0, 9999.0)),
               ),
             ),
           ),
@@ -188,6 +155,18 @@ class iPhone14Plus13ProMax12ProMax1 extends StatelessWidget {
               decoration: BoxDecoration(
                 image: DecorationImage(
                   image: const AssetImage(''),
+                  fit: BoxFit.fill,
+                ),
+              ),
+            ),
+          ),
+          Pinned.fromPins(
+            Pin(start: 26.0, end: 25.0),
+            Pin(size: 282.0, start: 103.0),
+            child: Container(
+              decoration: BoxDecoration(
+                image: DecorationImage(
+                  image: const AssetImage('assets/images/pig.png'),
                   fit: BoxFit.fill,
                 ),
               ),

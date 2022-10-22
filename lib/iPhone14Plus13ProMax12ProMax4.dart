@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:adobe_xd/pinned.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
-class iPhone14Plus13ProMax12ProMax2 extends StatelessWidget {
-  iPhone14Plus13ProMax12ProMax2({
+class iPhone14Plus13ProMax12ProMax4 extends StatelessWidget {
+  iPhone14Plus13ProMax12ProMax4({
     Key? key,
   }) : super(key: key);
   @override
@@ -30,30 +30,33 @@ class iPhone14Plus13ProMax12ProMax2 extends StatelessWidget {
             ),
           ),
           Pinned.fromPins(
-            Pin(start: 39.0, end: 38.0),
+            Pin(start: 58.0, end: 19.0),
             Pin(size: 114.0, middle: 0.4803),
             child: Container(
               decoration: BoxDecoration(
-                color: const Color(0xffa8aaac),
+                color: const Color(0xff008ec0),
                 borderRadius: BorderRadius.circular(10.0),
               ),
             ),
           ),
-          Pinned.fromPins(
-            Pin(size: 258.0, start: 53.0),
-            Pin(size: 37.0, middle: 0.4466),
-            child: Text(
-              'Holiday - Croatia',
-              style: TextStyle(
-                fontFamily: 'Averta ☞',
-                fontSize: 28,
-                color: const Color(0xffffffff),
-                fontWeight: FontWeight.w600,
+          Align(
+            alignment: Alignment(-0.153, -0.107),
+            child: SizedBox(
+              width: 258.0,
+              height: 37.0,
+              child: Text(
+                'Holiday - Croatia',
+                style: TextStyle(
+                  fontFamily: 'Averta ☞',
+                  fontSize: 28,
+                  color: const Color(0xffffffff),
+                  fontWeight: FontWeight.w600,
+                ),
               ),
             ),
           ),
           Pinned.fromPins(
-            Pin(size: 46.0, end: 49.0),
+            Pin(size: 46.0, end: 30.0),
             Pin(size: 26.0, middle: 0.4856),
             child: Container(
               decoration: BoxDecoration(
@@ -62,13 +65,12 @@ class iPhone14Plus13ProMax12ProMax2 extends StatelessWidget {
               ),
             ),
           ),
-          Align(
-            alignment: Alignment(0.66, -0.029),
+          Pinned.fromPins(
+            Pin(size: 22.0, end: 33.0),
+            Pin(size: 22.0, middle: 0.4856),
             child: Container(
-              width: 22.0,
-              height: 22.0,
               decoration: BoxDecoration(
-                color: const Color(0xffb9b9b9),
+                color: const Color(0xff30e036),
                 borderRadius:
                     BorderRadius.all(Radius.elliptical(9999.0, 9999.0)),
               ),
@@ -121,21 +123,24 @@ class iPhone14Plus13ProMax12ProMax2 extends StatelessWidget {
               fit: BoxFit.fill,
             ),
           ),
-          Pinned.fromPins(
-            Pin(size: 105.0, start: 59.0),
-            Pin(size: 33.0, middle: 0.5028),
-            child: Text(
-              '5000 €',
-              style: TextStyle(
-                fontFamily: 'Averta ☞',
-                fontSize: 25,
-                color: const Color(0xffffffff),
-                fontWeight: FontWeight.w600,
+          Align(
+            alignment: Alignment(-0.517, 0.006),
+            child: SizedBox(
+              width: 105.0,
+              height: 33.0,
+              child: Text(
+                '5000 €',
+                style: TextStyle(
+                  fontFamily: 'Averta ☞',
+                  fontSize: 25,
+                  color: const Color(0xffffffff),
+                  fontWeight: FontWeight.w600,
+                ),
               ),
             ),
           ),
           Align(
-            alignment: Alignment(0.303, 0.006),
+            alignment: Alignment(0.41, 0.006),
             child: SizedBox(
               width: 72.0,
               height: 31.0,
@@ -171,6 +176,28 @@ class iPhone14Plus13ProMax12ProMax2 extends StatelessWidget {
                   fit: BoxFit.fill,
                 ),
               ),
+            ),
+          ),
+          Pinned.fromPins(
+            Pin(size: 32.0, start: 13.0),
+            Pin(size: 32.0, middle: 0.4821),
+            child: Stack(
+              children: <Widget>[
+                Container(
+                  decoration: BoxDecoration(
+                    color: const Color(0xffdf0000),
+                    borderRadius:
+                        BorderRadius.all(Radius.elliptical(9999.0, 9999.0)),
+                  ),
+                ),
+                Pinned.fromPins(
+                  Pin(start: 3.0, end: 3.0),
+                  Pin(size: 6.0, middle: 0.5),
+                  child: Container(
+                    color: const Color(0xffffffff),
+                  ),
+                ),
+              ],
             ),
           ),
         ],

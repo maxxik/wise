@@ -25,14 +25,25 @@ class StatisticsScreen extends StatefulWidget {
 }
 
 class _StatisticsScreenState extends State<StatisticsScreen> {
-  refresh() {
-    setState(() {});
-  }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
         backgroundColor: Color.fromARGB(255, 255, 255, 255),
-        body: Text("Statistics"));
+        body: Column(
+          mainAxisAlignment: MainAxisAlignment.start,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: [
+            // image add
+            Image.asset(
+              "assets/images/plot_cum.png",
+              fit: BoxFit.fitWidth,
+            ),
+
+            Image.asset(
+              "assets/images/pie.png",
+              fit: BoxFit.fitWidth,
+            ),
+          ],
+        ));
   }
 }

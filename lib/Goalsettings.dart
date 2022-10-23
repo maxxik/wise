@@ -107,7 +107,7 @@ class _GoalSettingsState extends State<GoalSettings> {
                   child: Align(
                     alignment: Alignment.centerLeft,
                     child: Text(
-                      "Contribution rate",
+                      "Spending category contributions",
                       style: TextStyle(
                         fontFamily: 'Averta',
                         fontSize: 25,
@@ -122,30 +122,127 @@ class _GoalSettingsState extends State<GoalSettings> {
 
           Padding(
             padding: EdgeInsets.fromLTRB(50, 30, 50, 0),
-            child: Row(crossAxisAlignment: CrossAxisAlignment.end, children: [
-              Checkbox(
-                  value: categoryBool[0],
-                  onChanged: (bool? value) {
-                    categoryBool[0] = value!;
-                    setState(() {});
-                  }),
-              Text(
-                "Groceries",
-                style: TextStyle(
-                  fontFamily: 'Averta',
-                  fontSize: 25,
-                  color: BrandBlue1,
-                  fontWeight: FontWeight.w600,
-                ),
-                textAlign: TextAlign.left,
-              ),
-              TextField(
-                  decoration: new InputDecoration(labelText: ""),
-                  keyboardType: TextInputType.number,
-                  inputFormatters: <TextInputFormatter>[
-                    FilteringTextInputFormatter.digitsOnly
-                  ])
-            ]),
+            child: Row(
+                crossAxisAlignment: CrossAxisAlignment.end,
+                mainAxisAlignment: MainAxisAlignment.start,
+                children: [
+                  Checkbox(
+                      value: categoryBool[0],
+                      onChanged: (bool? value) {
+                        categoryBool[0] = value!;
+                        setState(() {});
+                      }),
+                  Text(
+                    "Groceries",
+                    style: TextStyle(
+                      fontFamily: 'Averta',
+                      fontSize: 25,
+                      color: BrandBlue1,
+                      fontWeight: FontWeight.w600,
+                    ),
+                    textAlign: TextAlign.left,
+                  )
+                ]),
+          ),
+
+          Padding(
+            padding: EdgeInsets.fromLTRB(50, 10, 50, 0),
+            child: Row(
+                crossAxisAlignment: CrossAxisAlignment.end,
+                mainAxisAlignment: MainAxisAlignment.start,
+                children: [
+                  Checkbox(
+                      value: categoryBool[1],
+                      onChanged: (bool? value) {
+                        categoryBool[1] = value!;
+                        setState(() {});
+                      }),
+                  Text(
+                    "Transportation",
+                    style: TextStyle(
+                      fontFamily: 'Averta',
+                      fontSize: 25,
+                      color: BrandBlue1,
+                      fontWeight: FontWeight.w600,
+                    ),
+                    textAlign: TextAlign.left,
+                  )
+                ]),
+          ),
+
+          Padding(
+            padding: EdgeInsets.fromLTRB(50, 10, 50, 0),
+            child: Row(
+                crossAxisAlignment: CrossAxisAlignment.end,
+                mainAxisAlignment: MainAxisAlignment.start,
+                children: [
+                  Checkbox(
+                      value: categoryBool[2],
+                      onChanged: (bool? value) {
+                        categoryBool[2] = value!;
+                        setState(() {});
+                      }),
+                  Text(
+                    "Utilities",
+                    style: TextStyle(
+                      fontFamily: 'Averta',
+                      fontSize: 25,
+                      color: BrandBlue1,
+                      fontWeight: FontWeight.w600,
+                    ),
+                    textAlign: TextAlign.left,
+                  )
+                ]),
+          ),
+
+          Padding(
+            padding: EdgeInsets.fromLTRB(50, 10, 50, 0),
+            child: Row(
+                crossAxisAlignment: CrossAxisAlignment.end,
+                mainAxisAlignment: MainAxisAlignment.start,
+                children: [
+                  Checkbox(
+                      value: categoryBool[3],
+                      onChanged: (bool? value) {
+                        categoryBool[3] = value!;
+                        setState(() {});
+                      }),
+                  Text(
+                    "Recreation",
+                    style: TextStyle(
+                      fontFamily: 'Averta',
+                      fontSize: 25,
+                      color: BrandBlue1,
+                      fontWeight: FontWeight.w600,
+                    ),
+                    textAlign: TextAlign.left,
+                  )
+                ]),
+          ),
+
+          Padding(
+            padding: EdgeInsets.fromLTRB(50, 10, 50, 0),
+            child: Row(
+                crossAxisAlignment: CrossAxisAlignment.end,
+                mainAxisAlignment: MainAxisAlignment.start,
+                children: [
+                  Checkbox(
+                      value: categoryBool[4],
+                      onChanged: (bool? value) {
+                        categoryBool[4] = value!;
+                        setState(() {});
+                      }),
+                  Text(
+                    "Entertainment",
+                    style: TextStyle(
+                      fontFamily: 'Averta',
+                      fontSize: 25,
+                      color: BrandBlue1,
+                      fontWeight: FontWeight.w600,
+                    ),
+                    textAlign: TextAlign.left,
+                  )
+                ]),
           ),
         ],
       ),

@@ -1,0 +1,335 @@
+[
+  {
+      "id": 1,
+      "recipient": "ALDI",
+      "description": "Groceries",
+      "date": "2022.10.21",
+      "price": 5891.0,
+      "currency": "HUF",
+      "price_in_eur": 14.38
+  },
+  {
+      "id": 2,
+      "recipient": "ALDI",
+      "description": "Groceries",
+      "date": "2022.10.16",
+      "price": 6723.0,
+      "currency": "HUF",
+      "price_in_eur": 16.11
+  },
+  {
+      "id": 3,
+      "recipient": "ALDI",
+      "description": "Groceries",
+      "date": "2022.10.14",
+      "price": 3.2,
+      "currency": "EUR",
+      "price_in_eur": 3.2
+  },
+  {
+      "id": 4,
+      "recipient": "ALDI",
+      "description": "Groceries",
+      "date": "2022.10.14",
+      "price": 1.0,
+      "currency": "EUR",
+      "price_in_eur": 1
+  },
+  {
+      "id": 5,
+      "recipient": "Flughafen Berlin",
+      "description": "Transportation",
+      "date": "2022.10.12",
+      "price": 24.3,
+      "currency": "EUR",
+      "price_in_eur": 24.3
+  },
+  {
+      "id": 6,
+      "recipient": "WALMART",
+      "description": "Groceries",
+      "date": "2022.10.09",
+      "price": 26.80,
+      "currency": "USD",
+      "price_in_eur": 27.53
+  },
+  {
+      "id": 6,
+      "recipient": "WALMART",
+      "description": "Groceries",
+      "date": "2022.10.06",
+      "price": 31.0,
+      "currency": "USD",
+      "price_in_eur": 31.65
+  },
+  {
+      "id": 7,
+      "recipient": "WALMART",
+      "description": "Groceries",
+      "date": "2022.10.04",
+      "price": 5.60,
+      "currency": "USD",
+      "price_in_eur": 5.61
+  },
+  {
+      "id": 8,
+      "recipient": "Theatre",
+      "description": "Entertainment",
+      "date": "2022.10.03",
+      "price": 15.0,
+      "currency": "USD",
+      "price_in_eur": 15.26
+  },
+  {
+      "id": 9,
+      "recipient": "WALMART",
+      "description": "Groceries",
+      "date": "2022.09.30",
+      "price": 18.20,
+      "currency": "USD",
+      "price_in_eur": 18.6
+  },
+  {
+      "id": 10,
+      "recipient": "WALMART",
+      "description": "Groceries",
+      "date": "2022.09.29",
+      "price": 3.0,
+      "currency": "USD",
+      "price_in_eur": 3.06
+  },
+  {
+      "id": 11,
+      "recipient": "Accomodation",
+      "description": "Transportation",
+      "date": "2022.09.29",
+      "price": 68.870,
+      "currency": "USD",
+      "price_in_eur": 70.14
+  },
+  {
+      "id": 12,
+      "recipient": "NYC AIRP",
+      "description": "Transportation",
+      "date": "2022.09.28",
+      "price": 103.580,
+      "currency": "USD",
+      "price_in_eur": 106.55
+  },
+  {
+      "id": 13,
+      "recipient": "ALDI",
+      "description": "Groceries",
+      "date": "2022.09.21",
+      "price": 10590.0,
+      "currency": "HUF",
+      "price_in_eur": 26.05
+  },
+  {
+      "id": 14,
+      "recipient": "ALDI",
+      "description": "Groceries",
+      "date": "2022.09.16",
+      "price": 840.0,
+      "currency": "HUF",
+      "price_in_eur": 2.08
+  },
+  {
+      "id": 15,
+      "recipient": "ALDI",
+      "description": "Groceries",
+      "date": "2022.09.14",
+      "price": 2230.0,
+      "currency": "HUF",
+      "price_in_eur": 5.5
+  },
+  {
+      "id": 16,
+      "recipient": "ALDI",
+      "description": "Groceries",
+      "date": "2022.09.11",
+      "price": 3470.0,
+      "currency": "HUF",
+      "price_in_eur": 8.75
+  },
+  {
+      "id": 17,
+      "recipient": "ALDI",
+      "description": "Groceries",
+      "date": "2022.09.07",
+      "price": 5468.0,
+      "currency": "HUF",
+      "price_in_eur": 13.81
+  },
+  {
+      "id": 18,
+      "recipient": "Bar",
+      "description": "Entertainment",
+      "date": "2022.09.05",
+      "price": 780.0,
+      "currency": "HUF",
+      "price_in_eur": 1.93
+  },
+  {
+      "id": 19,
+      "recipient": "Bar",
+      "description": "Entertainment",
+      "date": "2022.09.05",
+      "price": 780.0,
+      "currency": "HUF",
+      "price_in_eur": 1.93
+  },
+  {
+      "id": 20,
+      "recipient": "Bar",
+      "description": "Entertainment",
+      "date": "2022.09.05",
+      "price": 780.0,
+      "currency": "HUF",
+      "price_in_eur": 1.93
+  },
+  {
+      "id": 21,
+      "recipient": "Massage",
+      "description": "Recreation",
+      "date": "2022.08.30",
+      "price": 5000.0,
+      "currency": "HUF",
+      "price_in_eur": 12.41
+  },
+  {
+      "id": 22,
+      "recipient": "Theatre",
+      "description": "Entertainment",
+      "date": "2022.08.27",
+      "price": 3500.0,
+      "currency": "HUF",
+      "price_in_eur": 8.5
+  },
+  {
+      "id": 23,
+      "recipient": "Cinema",
+      "description": "Entertainment",
+      "date": "2022.08.23",
+      "price": 1200.0,
+      "currency": "HUF",
+      "price_in_eur": 2.9
+  },
+  {
+      "id": 24,
+      "recipient": "ALDI",
+      "description": "Groceries",
+      "date": "2022.08.22",
+      "price": 25891.0,
+      "currency": "HUF",
+      "price_in_eur": 63.28
+  },
+  {
+      "id": 25,
+      "recipient": "Bills",
+      "description": "Utilities",
+      "date": "2022.08.21",
+      "price": 2278.0,
+      "currency": "HUF",
+      "price_in_eur": 5.63
+  },
+  {
+      "id": 26,
+      "recipient": "Bills",
+      "description": "Utilities",
+      "date": "2022.08.21",
+      "price": 1680.0,
+      "currency": "HUF",
+      "price_in_eur": 4.15
+  },
+  {
+      "id": 27,
+      "recipient": "Bills",
+      "description": "Utilities",
+      "date": "2022.08.21",
+      "price": 9801.0,
+      "currency": "HUF",
+      "price_in_eur": 24.2
+  },
+  {
+      "id": 28,
+      "recipient": "Bills",
+      "description": "Utilities",
+      "date": "2022.08.21",
+      "price": 23102.0,
+      "currency": "HUF",
+      "price_in_eur": 57.05
+  },
+  {
+      "id": 29,
+      "recipient": "Bills",
+      "description": "Utilities",
+      "date": "2022.08.21",
+      "price": 15077.0,
+      "currency": "HUF",
+      "price_in_eur": 37.23
+  },
+  {
+      "id": 30,
+      "recipient": "Bills",
+      "description": "Utilities",
+      "date": "2022.08.21",
+      "price": 6780.0,
+      "currency": "HUF",
+      "price_in_eur": 16.74
+  },
+  {
+      "id": 31,
+      "recipient": "Bills",
+      "description": "Utilities",
+      "date": "2022.08.21",
+      "price": 3200.0,
+      "currency": "HUF",
+      "price_in_eur": 7.9
+  },
+  {
+      "id": 32,
+      "recipient": "Bills",
+      "description": "Utilities",
+      "date": "2022.08.21",
+      "price": 24500.0,
+      "currency": "HUF",
+      "price_in_eur": 60.5
+  },
+  {
+      "id": 33,
+      "recipient": "Bills",
+      "description": "Utilities",
+      "date": "2022.08.21",
+      "price": 80000.0,
+      "currency": "HUF",
+      "price_in_eur": 197.55
+  },
+  {
+      "id": 34,
+      "recipient": "BKK Zrt",
+      "description": "Transportation",
+      "date": "2022.08.20",
+      "price": 3450.0,
+      "currency": "HUF",
+      "price_in_eur": 8.54
+  },
+  {
+      "id": 35,
+      "recipient": "Massage",
+      "description": "Recreation",
+      "date": "2022.08.20",
+      "price": 5000.0,
+      "currency": "HUF",
+      "price_in_eur": 12.37
+  },
+  {
+      "id": 36,
+      "recipient": "Transportation",
+      "description": "Transportation",
+      "date": "2022.08.19",
+      "price": 2560.0,
+      "currency": "HUF",
+      "price_in_eur": 6.33
+  }
+]

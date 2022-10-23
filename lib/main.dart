@@ -1,9 +1,15 @@
 import 'package:flutter/material.dart';
-
-import './iPhone14Plus13ProMax12ProMax1.dart';
+import 'package:wise/transaction_list.dart';
+import './Savings.dart';
 
 void main() {
-  runApp(MaterialApp(home: iPhone14Plus13ProMax12ProMax1()));
+  runApp(
+    MaterialApp(
+        home: Savings(),
+        theme: ThemeData(
+            fontFamily: 'Averta',
+            primaryColor: Color.fromARGB(255, 0, 185, 255))),
+  );
 }
 
 class MyHomePage extends StatefulWidget {
